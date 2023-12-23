@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  font-family: sans-serif;
+}
+
+#meni header {
+  text-align: center;
+}
+
+#meni a {
+  background-color: #c79140;
+  border: 1px solid black;
+  border-radius: 10px 10px;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 28px;
+  color: black;
+}
+
+#meni a:hover {
+  color: black;
+  text-shadow: 4px 4px 4px black;
+  transition: 0.3s;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px 2px black;
+  margin-top: 40px;
+}
+
+form {
+  color: black;
+  font-size: 20px;
+  margin: 40px;
+}
+
+form input:focus {
+  background-color: #c79140;
+}
+
+legend {
+  margin: 10px;
+  text-shadow: 4px 4px 5px black;
+}
+input[type="text"],
+input[type="email"] {
+  display: block;
+  padding: 5px;
+  margin: 5px;
+}
+
+input[type="radio"] {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #65c6c4;
+}
+
+textarea {
+  display: block;
+  padding: 5px;
+  margin: 5px;
+}
+
+textarea:hover {
+  background-color: #ceac79;
+}
+
+p {
+  padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  #meni a {
+    width: 100%;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  font-family: sans-serif;
+}
+
+#meni header {
+  text-align: center;
+}
+
+#meni a {
+  background-color: #c79140;
+  border: 1px solid black;
+  border-radius: 10px 10px;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 28px;
+  color: black;
+}
+
+#meni a:hover {
+  color: black;
+  text-shadow: 4px 4px 4px black;
+  transition: 0.3s;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px 2px black;
+  margin-top: 60px;
+}
+
+#glavni {
+  color: black;
+  text-align: justify;
+  margin: 30px;
+  text-shadow: 1px 1px 2px black;
+}
+#manji {
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 600px) {
+  #meni a {
+    width: 100%;
+    font-size: 18px;
+  }
+}

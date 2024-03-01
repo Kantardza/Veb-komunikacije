@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /slike/
 
-sitemap: https://aleksej018.github.io/ukrasi/sitemap.xml
+sitemap: https://kantardza.github.io/Veb-komunikacije/sitemap.xml
